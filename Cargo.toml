@@ -1,7 +1,14 @@
 [package]
-name = "gueim"
+name = "flappycheems"
 version = "0.1.0"
 edition = "2024"
+authors = ["Noziaht", "Developer"]
+description = "A Flappy Bird clone featuring Cheems, built with Rust and bracket-lib"
+license = "Apache-2.0"
+repository = "https://github.com/notziaht/flappycheems"
+keywords = ["game", "flappy-bird", "cheems", "arcade"]
+categories = ["games"]
 
 [dependencies]
-bracket-lib = "0.8.7"
+bracket-lib = { version = "0.8.7", features = ["opengl"] }
+thiserror = "2.0.16"
